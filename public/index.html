@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro Personalizado</title>
+    <link rel="stylesheet" href="style.css"> <!-- Si deseas agregar estilos personalizados, crea un archivo CSS llamado styles.css -->
+</head>
+<body>
+
+    <h1>Mi Foro Personalizado</h1>
+
+    <form id="postForm">
+        <label for="titulo">Título del Post:</label><br>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+
+        <label for="comentario">Contenido del Post:</label><br>
+        <textarea id="comentario" name="comentario" required rows="8" cols="40"></textarea><br><br>
+
+        <label for="imagen">URL de la Imagen:</label><br>
+        <input type="url" id="imagen" name="imagen" oninput="previewImage()" placeholder="Pega la URL de la imagen"><br>
+        <img id="imagePreview" src="" alt="Vista Previa de la Imagen" style="max-width: 300px; display: none;"><br><br>
+
+        <label for="fecha_creacion">Fecha de Creación:</label><br>
+        <input type="date" id="fecha_creacion" name="fecha_creacion" required><br><br>
+
+        <input type="submit" value="Publicar">
+    </form>
+
+<script src="java.js"></script>
+</body>
+</html>
