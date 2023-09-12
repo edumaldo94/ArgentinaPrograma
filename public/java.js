@@ -23,13 +23,11 @@ document.getElementById('postForm').addEventListener('submit', function (e) {
           imagen: imagen.value,
           fecha_creacion: fecha.value
         }
-        console.log('Titulo:', titulo.value);
-        console.log('Contenido:', contenido.value);
-        console.log('Imagen:', imagen.value);
-        console.log('Fecha:', fecha.value);
+   
+       
         
         let formJson = JSON.stringify(postData);
-        console.log(':', formJson);
+        
         fetch('http://localhost:3000/postData', {
             method: 'POST',
             headers: {
