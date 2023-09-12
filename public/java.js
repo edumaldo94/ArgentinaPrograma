@@ -23,9 +23,7 @@ document.getElementById('postForm').addEventListener('submit', function (e) {
           imagen: imagen.value,
           fecha_creacion: fecha.value
         }
-   
-       
-        
+  
         let formJson = JSON.stringify(postData);
         
         fetch('http://localhost:3000/postData', {
