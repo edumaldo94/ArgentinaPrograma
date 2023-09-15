@@ -1,0 +1,9 @@
+services:
+  - name: app
+    env: node
+    buildCommand: npm install
+    startCommand: node app/app.js
+
+  - name: public
+    buildCommand: echo 'Nothing to build for public'
+    startCommand: echo 'Starting public'
