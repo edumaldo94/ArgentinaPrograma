@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes } = require('sequelize');
-const sequelize = require('./baseDeDatos.js');
+const sequelize = require('../config/baseDeDatos.js');
 
 const baseforoAe = sequelize.define('baseforoAe', {
 
