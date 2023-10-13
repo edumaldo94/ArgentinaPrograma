@@ -17,7 +17,7 @@
                     <h2><%= post.titulo %></h2>
                     <p><%= post.comentario %></p>
                     <img src="<%= post.imagen %>" alt="Imagen relacionada">
-                    <p>Creado el <%= post.fecha_creacion %></p> <!-- Depuración -->
+                    <p>Creado el <%= post.fecha_creacion %></p> 
                     <a href="/delete/<%= post.id %>" class="button-link">Eliminar</a>
                 </li>
             <% }); %>

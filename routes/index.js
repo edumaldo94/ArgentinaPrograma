@@ -13,7 +13,7 @@ router.get('/create', (req, res) => {
 });
 
 router.post('/create', async (req, res) => {
-    console.log(req.body); // Agrega esta línea para verificar el cuerpo de la solicitud
+    console.log(req.body); 
     const { titulo, comentario, imagenURL, fecha_creacion } = req.body;
     await baseforoAe.create({ titulo, comentario, imagen: imagenURL, fecha_creacion });
     res.redirect('/');

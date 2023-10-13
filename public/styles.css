@@ -1,6 +1,3 @@
-/* Estilos para el formulario de creación */
-
-/* Estilos para index.ejs */
 
 body {
     font-family: Arial, sans-serif;
@@ -101,8 +98,6 @@ body {
   form input[type="submit"]:hover {
     background-color: #0056b3;
   }
-  
-  /* Estilos para el enlace de volver */
   
   .back-link {
     display: block;

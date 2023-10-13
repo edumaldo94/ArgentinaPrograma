@@ -33,6 +33,14 @@ npm start
 El proyecto estará disponible en [http://localhost:3000](http://localhost:3000).
 
 
+---
+
+¡Gracias por revisar mi proyecto! Si deseas contribuir o simplemente explorar el código, puedes visitar mi repositorio en [GitHub](https://github.com/edumaldo94/ArgentinaPrograma).
+
+¡Saludos!
+
+Eduardo Maldonado
+
 
 
 
